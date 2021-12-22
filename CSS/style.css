@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ____section one____ */
+
+.section__one {
+    background: url('../img/fon.jpg') no-repeat center top / cover;
+    height: 80vh;
+    color: white;
+}
+.logo {
+    height: 35px;
+    width: 35px;
+}
+.navbar__logo {
+    display: flex;
+    margin-left: 10vh;
+}
+.navbar__logo p {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+.navbar::after {
+    content: '';
+    position: absolute;
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-radius: 15%;
+    width: 100%;
+    opacity: 0.5;
+    margin-top: 50px;
+}
+.telephon {
+    margin-right: 10vh;
+}
+.teleph {
+    text-decoration: none;
+    color: white;
+}
+.header__one {
+    padding-top: 100px;
+}
+.header__one {
+    margin-left: 55%;
+}
+.text_yel {
+    color: yellow;
+}
+.title__one {
+    width: 330px;
+}
+.and {
+    margin-left: 15px;
+}
+.text__one {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(red, green, blue, 0.2);
+    backdrop-filter: blur(8px);
+    width: 350px;
+}
+.txt_one {
+    font-size: 17px;
+}
+.subtext__one {
+    margin-top: 14px;
+    font-size: 10px;
+}
+.text__small {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* ____section two____ */
+
+.section__two {
+    background: url('../img/peop.jpg') no-repeat center top / cover;
+    color: white;
+    height: 180px;
+}
+.after_two::after {
+    content: '';
+    position: absolute;
+    display: flex;
+    border-bottom: 3px solid #c09431;
+    border-radius: 15%;
+    width:30px;
+    opacity: 0.5;
+    margin-top: 5px;
+    margin-left: 11.5%;
+}
+.after_two {
+    font-size: 30px;
+    margin-bottom: 18px;
+    color: #718398;
+}
+.navbar__two {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.navbar_item {
+    text-align: center;
+}
+.navbar_item p {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+/* ____section three____ */
+
+.section__three {
+    background: url('../img/world.jpg') no-repeat center top / cover;
+    height: 500px;
+    color: #0614af; 
+}
+.header__three {
+    text-align: center;
+    color: #0614af; 
+    font-size: 30px;
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+.kav {
+    width: 70px;
+    height: 50px;
+}
+.kavichki {
+    text-align: center;
+}
+.text__three {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px; 
+    font-size: 19px;
+    text-align: center;
+    padding: 15px;
+    background: rgba(red, green, blue, 0.2);
+    backdrop-filter: blur(2px);
+}
+.people__three {
+    display: flex;
+    margin-top: 70px;
+}
+.img_peop {
+    text-align: center;
+}
+.chel {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: 80vh;
+}
+.text__three_peop {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.name__three {
+    color: black;
+}
+
+/* ____section four____ */
+
+.section__four {
+    background-color: #001586;
+    height: 250px;
+}
+.znak {
+    text-decoration: none;
+    color: white;
+}
+.contact__item::after {
+    content: '';
+    border-bottom: 3px solid #c09431;
+    width: 40px;
+    position: relative;
+    transform: rotate(90deg);
+    display: inline-block;
+    left: 100%;
+    margin-top: -60px;
+}
+.contact__item {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-top: 50px;
+}
+.znaktel {
+    width: 50px;
+    height: 50px;
+}
+.sms {
+    height: 50px;
+    width: 50px;
+}
+.text__four {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1100px;
+    margin-top: 50px;
+}
+
+.sectt {
+    background-color: #01115d;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}

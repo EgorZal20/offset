@@ -1,0 +1,87 @@
+@media screen and (max-width: 400px) {
+    /* ____section one_____ */
+
+    .section__one {
+        height: 600px;
+    }
+    .logo {
+        width: 25px;
+        height: 25px;
+    }
+    .navbar__logo {
+        margin-left: 2vh;
+    }
+    .navbar__logo p {
+        margin-top: 0px;
+        margin-left: 7px;
+
+    }
+    .telephon {
+        margin-right: 2vh;
+        font-size: 15px;
+    }
+    .header__one {
+        margin-left: 0;
+        
+    }
+    .header_title {
+        margin-left: 20px;
+        font-size: 22px;
+        margin-top: 40px;
+    }
+    .text__one {
+        margin-top: 20px;
+    }
+    .text__one h2 {
+        font-size: 20px;
+    }
+
+    /* ____section two____ */
+
+    .section__two {
+        height: 300px;
+    }
+    .navbar__two {
+        grid-template-columns: 1fr 1fr;
+        padding-top: 30px;
+    }
+    .navbar_item {
+        margin-top: 20px;
+    }
+    .after_two::after {
+        margin-left: 21%;
+    }
+
+    /* ____secttion three____ */
+
+    .section__three {
+        height: 470px;
+    }
+    .header__three {
+        font-size: 25px;
+        padding-top: 60px;
+    }
+    .kav {
+        width: 50px;
+        height: 35px;
+    }
+    .text__three {
+        width: 350px;
+    }
+    .people__three {
+        margin-top: 20px;
+    }
+    .chel {
+        margin-left: 16vh;
+    }
+
+    /* ____section four____ */
+
+    .text__four {
+        width: 350px;
+        font-size: 10px;
+    }
+    .sectt {
+        font-size: 10px;
+    }
+}
